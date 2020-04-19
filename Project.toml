@@ -1,0 +1,13 @@
+name = "RieszTransform"
+uuid = "0245b108-6d7c-49a3-9240-1e05a0a6e737"
+authors = ["RoyCCWang"]
+version = "0.1.0"
+
+[deps]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SignalTools = "b086e3b0-2b60-4e5e-82e2-224f9e17a289"
+SymTensorTools = "814c1bf3-67df-4885-8bfe-7a4c11833e7a"
+Utilities = "c16f81ae-bc18-4c85-8dee-b67f3150a483"
