@@ -300,8 +300,8 @@ uuid = "81def892-9a0e-5fdd-b105-ffc91e053289"
 version = "1.2.0"
 
 [[VisualizationTools]]
-deps = ["FFTW", "PyPlot", "Utilities"]
-git-tree-sha1 = "69689efc538144434e35fa171764a4033476496a"
+deps = ["FFTW", "Printf", "PyPlot", "Random", "Utilities"]
+git-tree-sha1 = "4a4356b78b6bc0f4a1871852a3bdda2bc30801fc"
 repo-rev = "master"
 repo-url = "https://gitlab.com/RoyCCWang/visualizationtools"
 uuid = "0e398401-11ec-4700-9a98-1d2d20f52f12"
