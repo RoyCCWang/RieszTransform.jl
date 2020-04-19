@@ -15,6 +15,7 @@ module RieszTransform
 
     # indirect dependencies.
     import Utilities
+    import VisualizationTools
 
     include("wavelet.jl");
     include("riesz_filters.jl");
