@@ -21,6 +21,7 @@ module RieszTransform
     include("riesz_filters.jl");
     include("monogenicanalysis.jl");
     include("riesz_wavelet.jl");
+    include("front_end.jl");
 
 
     export  getRTfilters, gethigherorderRTfilters, RieszAnalysis, RieszSynthesis,
@@ -29,6 +30,7 @@ module RieszTransform
             getprefilters,
             waveletanalysis, waveletsynthesis,
             RieszwaveletAnalysis, convert𝓡ψtoψ𝓡,
-            RieszwaveletSynthesis, convert𝓡ψtoψ𝓡vectorfield
+            RieszwaveletSynthesis, convert𝓡ψtoψ𝓡vectorfield,
+            performmonogenicwaveletanalysis
 
 end
