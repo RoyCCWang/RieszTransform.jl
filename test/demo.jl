@@ -136,7 +136,7 @@ filterpairreconstructiondemo(A)
 Rieszreconstructiondemo(A)
 
 
-@test redundantwaveletreconstructiondemo(A) < 1e-13
+@test redundantwaveletreconstructiondemo(A) < 1e-12
 #function visualizefilters()
     ## visualize filters
     # import PyPlot
