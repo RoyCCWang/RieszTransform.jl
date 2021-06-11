@@ -28,7 +28,7 @@ A = rand(10,10,10)
 D = length(size(A))
 
 # This demo doesn't visualize the results, because I don't want to load PyPlot.
-analysis_results = performmonogenicwaveletanalysis(A)
+analysis_results = getmonogenicwaveletanalysis(A)
 
 # Demos with verbose screen output for verification.
 Rieszwaveletreconstructiondemo(A)

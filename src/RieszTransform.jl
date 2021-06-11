@@ -31,6 +31,6 @@ module RieszTransform
             waveletanalysis, waveletsynthesis,
             RieszwaveletAnalysis, convert𝓡ψtoψ𝓡,
             RieszwaveletSynthesis, convert𝓡ψtoψ𝓡vectorfield,
-            performmonogenicwaveletanalysis
+            getmonogenicwaveletanalysis
 
 end

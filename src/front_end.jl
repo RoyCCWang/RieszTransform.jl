@@ -1,4 +1,4 @@
-function performmonogenicwaveletanalysis(  y::Array{T,D},
+function getmonogenicwaveletanalysis(  y::Array{T,D},
                                         N_scales = round(Int, log2( maximum(size(y)) )),
                                         scale_select = cld(N_scales,2) ) where {T,D}
 
@@ -73,7 +73,7 @@ function filterpairreconstructiondemo(A::Array{T,D}, N_tests = 100) where {T,D}
         total_discrepancy += sum(abs.(ifft(fft(Y).*LP+fft(residual).*HP)-A))
     end
     println("Demo for Lowpass and highpass reconstruction.")
-    Printf.@printf("Total reconstruction discrepancies of %d trials: ", N_tests)
+    println("Total reconstruction discrepancies of ", N_tests, " trials: ")
     println(total_discrepancy)
     println()
 end
